@@ -1,0 +1,229 @@
+
+/*  Includes  */
+
+.logoImg , .Links a , .Links{
+  display: inline-block;
+}
+
+.logoImg{
+  padding-left: 35px;
+  padding-top: 14px;
+  box-sizing: content-box;
+  width: 100px;
+  float: left;
+
+}
+.Links a{
+  padding: 10px;
+  float: left;
+  color: #11999E;
+  text-decoration: none;
+  margin: 0 16px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.Links{
+  margin-left: 580px;
+}
+
+.Footer{
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+
+.Links a p {
+  margin-top: 1em;
+}
+.FooterImg{
+  border-width: 0;
+  width: 88px;
+  height: 31px;
+}
+
+/*  All Pages  */
+
+.FeedbackLabel{
+  display: block;
+}
+
+body{
+  color: #40514E;
+  background-color:  #EAF6F6;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+a{
+   color: #EA84AB;
+   text-decoration: none;
+   margin: 4px 4px;
+}
+
+
+a:hover{
+color: #66bfbf;
+
+}
+
+h1{
+
+margin: 50px auto 2px auto;
+font-family: 'Sacramento', cursive;
+font-size: 5.625rem;
+color:#11999E;
+line-height: 2;
+
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color:#11999E;
+  font-weight: normal;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+h3 {
+  color:#11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pinkFont{
+  color: #EA84AB;
+  display: inline;
+}
+
+p{
+  line-height: 2;
+}
+
+
+
+
+
+
+Table , th, td{
+  border: 1px solid black;
+  line-height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+    border-collapse: collapse;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 236px;
+}
+
+
+th{
+  color: #11999E;
+}
+
+.ZeroH2{
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+
+/*  Homepage Page  */
+
+  .Top{
+
+  background-color:  #EAF6F6;
+  padding-top: 50px;
+
+}
+.middle{
+  margin: 100px 0;
+}
+
+.Concept_text{
+  width: 35%;
+  margin: auto;
+}
+
+.PinkHr{
+  border-style: dotted;
+border-color:#F9D9E5;
+border-width: 7.5px;
+margin: 90px auto;
+border-bottom: none;
+width: 4%;
+background-color: inherit;
+opacity:1;
+}
+
+
+.MirrorP{
+  width: 35%;
+  margin: auto;
+    line-height: 2.5;
+
+}
+
+.ideas-row{
+  width: 50%;
+margin: 100px auto 100px auto;
+text-align: left;
+}
+
+.ideas-img{
+  width: 25%;
+  margin: 20px;
+}
+.ideas-img2{
+  width: 18.5%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.sr-only {
+color:#D83D5A;
+}
+
+/*  Feedback Page  */
+
+.feedbackLegend{
+ text-align: left;
+ color:#11999E;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 20px;
+}
+
+.form_error  {
+  width: 80%;
+  height: 35px;
+  margin: 3px 10%;
+  font-size: 1em;
+  color: #D83D5A;
+}
+
+.FeedbackLabel{
+  display: block;
+}
+
+
+/*  Video Page  */
+.Video{
+  width: 600px;
+  height: 400px;
+  margin-bottom: 38px;
+
+}
+
+/*  Resume Page  */
+
+.PDF{
+  width: 600px;
+  height: 400px;
+  margin-bottom: 38px;
+}
+
+/*  scedule Page  */
+
+.sceduleTable{
+
+    margin-bottom: 163px;
+}
