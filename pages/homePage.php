@@ -14,10 +14,6 @@
       <link rel="stylesheet" href="../CSS/styles.css" />
       <!-- FavIcon-->
       <link rel="icon" href="../favicon/favicon1.ico" />
-      <!-- js jquery-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
-      <script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
-      <script  type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
     </head>
     <body>
       <div class="headerInclude">
@@ -52,36 +48,39 @@
               <!-- Bootsrap Grid-->
               <div class="Benefits">
               <h2>DIY Benefits</h2>
-              <div class="row">
-                <div class="features-box col-lg-4" >
-                  <i  class="features-icon fas fa-check-circle fa-4x"></i>
-                  <span class="features-p"><span class="pinkFont MirrorP">●</span>  Teaches You a New Skill</span>
-                    </div>
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="features-box col-lg-4" >
+                    <i  class="features-icon fas fa-check-circle fa-4x"></i>
+                    <span class="features-p"><span class="pinkFont MirrorP">●</span>  Teaches You a New Skill</span>
+                      </div>
 
-                    <div class="features-box col-lg-4" >
-                      <i  class="features-icon fas fa-bullseye fa-4x"></i>
-                      <span  class="features-p">  <span class="pinkFont MirrorP">●</span> Can Make Money With It </span>
-                    </div>
+                      <div class="features-box col-lg-4" >
+                        <i  class="features-icon fas fa-bullseye fa-4x"></i>
+                        <span  class="features-p">  <span class="pinkFont MirrorP">●</span> Can Make Money With It </span>
+                      </div>
 
-                    <div class="features-box col-lg-4" >
-                      <i  class=" features-icon fas fa-heart fa-4x"></i>
-                      <span  class="features-p"> <span class="pinkFont MirrorP">●</span> Help Reduce Stress and Improve Your Mood </span>
-                    </div>
+                      <div class="features-box col-lg-4" >
+                        <i  class=" features-icon fas fa-heart fa-4x"></i>
+                        <span  class="features-p"> <span class="pinkFont MirrorP">●</span> Help Reduce Stress and Improve Your Mood </span>
+                      </div>
 
-                    <div class="features-box col-lg-4" >
-                      <i  class=" features-icon fas fa-heart fa-4x"></i>
-                      <span  class="features-p">  <span class="pinkFont MirrorP">●</span>  Helps Save Your Money </span>
-                    </div>
+                      <div class="features-box col-lg-4" >
+                        <i  class=" features-icon fas fa-heart fa-4x"></i>
+                        <span  class="features-p">  <span class="pinkFont MirrorP">●</span>  Helps Save Your Money </span>
+                      </div>
 
-                    <div class="features-box col-lg-4" >
-                      <i  class=" features-icon fas fa-heart fa-4x"></i>
-                      <span  class="features-p"> <span class="pinkFont MirrorP">●</span>  Allows You to be More Active </span>
+                      <div class="features-box col-lg-4" >
+                        <i  class=" features-icon fas fa-heart fa-4x"></i>
+                        <span  class="features-p"> <span class="pinkFont MirrorP">●</span>  Allows You to be More Active </span>
+                      </div>
+                      <div class="features-box col-lg-4" >
+                        <i  class=" features-icon fas fa-heart fa-4x"></i>
+                        <span  class="features-p"> <span class="pinkFont MirrorP">●</span>  Keeps Your Brain Sharp </span>
+                      </div>
                     </div>
-                    <div class="features-box col-lg-4" >
-                      <i  class=" features-icon fas fa-heart fa-4x"></i>
-                      <span  class="features-p"> <span class="pinkFont MirrorP">●</span>  Keeps Your Brain Sharp </span>
-                    </div>
-                  </div>
+              </div>
+
                   </div>
 
 
@@ -99,38 +98,11 @@
                     </div>
                     <hr class="PinkHr" />
 
-
                     <div class="ideas">
-                      <div id="ideas-carousel" class="carousel slide" >
-                        <div class="carousel-inner">
-                          <h2>DIY Ideas</h2>
-                          <div class="carousel-item active">
-                            <h3 class="pinkFont">Picture Ledges</h3>
-                            <p>You don't have to crowd every bookshelf and mantle to find enough space for your photos.
-                              "These are gorgeous picture ledges that we made from scrap wood that now house a collection of photos,".
-                              The best part? This project cost less than $10. (Find out more<a class="aIdeas" href="https://www.justmeasuringup.com/picture-ledges /">here</a>)</p>
-                              <img class="ideas-img" src="../images/ledge.jpg" alt="ledge"/>
-                            </div>
-                            <div class="carousel-item">
-                              <h3 class="pinkFont">Wooden Baby Gym</h3>
-                              <p>Not loving the look of your kids clunky plastic toys? Making this gorgeous wooden baby gym is
-                                easier than you'd expect.
-                                but ideas are unlimited. (Find out how to make your own <a class="aIdeas" href="https://bestlifeonline.com/easy-diy-home-projects /">here</a>.)</p>
-                                <img class="ideas-img2" src="../images/wooden-baby-gym.jpg" alt="wooden-baby-gym"/>
-                              </div>
-                            </div>
-                            <a class="carousel-control-prev" href="#ideas-carousel" >
-                              <span class="carousel-control-prev-icon" ></span>
-                              <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#ideas-carousel"  >
-                              <span class="carousel-control-next-icon" ></span>
-                              <span class="sr-only">Next</span>
-                            </a>
-                          </div>
-
-                        </div>
-
+                      <h2>DIY Ideas</h2>
+                      <a href="../pages/Diy_ideas.php">Click Here!</a>
+                    </div>
+<hr class="PinkHr" />
 
 
                         <div class="More-Ideas">
