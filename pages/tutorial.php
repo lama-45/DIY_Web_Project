@@ -32,7 +32,7 @@
   </object>
     </div>
 
-    <div class="footerInclude">
+    <div class="FooterInclude">
       <?php
       include("../includes/Footer.php");
       ?>
