@@ -33,8 +33,9 @@
 }
 
 
-.Links a p {
+.Links a  {
   margin-top: 1em;
+  line-height: 110%;
 }
 .FooterImg{
   border-width: 0;
@@ -53,7 +54,7 @@ body{
   background-color:  #EAF6F6;
   margin: 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: 'Montserrat', sans-serif;
 }
 a{
    color: #EA84AB;
@@ -107,12 +108,10 @@ p{
 Table , th, td{
   border: 1px solid black;
   line-height: 40px;
-  margin-left: auto;
-  margin-right: auto;
     border-collapse: collapse;
     padding-left: 10px;
     padding-right: 10px;
-    margin-bottom: 236px;
+    margin: 20px auto 150px auto ;
 }
 
 
@@ -209,7 +208,7 @@ color:#D83D5A;
 .Video{
   width: 600px;
   height: 400px;
-  margin-bottom: 38px;
+  margin-bottom: 69px;
 
 }
 
@@ -218,12 +217,12 @@ color:#D83D5A;
 .PDF{
   width: 600px;
   height: 400px;
-  margin-bottom: 38px;
+  margin-bottom: 69px;
 }
 
 /*  scedule Page  */
 
 .sceduleTable{
 
-    margin-bottom: 163px;
+    margin-bottom: 153px;
 }

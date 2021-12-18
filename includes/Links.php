@@ -1,8 +1,8 @@
 <div class="Links">
-	<a href="homePage.php"><p>Home Page</p></a>
-	<a href="schedule.php"><p>schedule</p></a>
-	<a href="tutorial.php"><p>Tutorial</p></a>
-	<a href="feedBack.php"><p>FeedBack</p></a>
-	<a href="Resume.php"><p>Resume</p></a>
-	<a href="supplires.php"><p>Suppliers</p></a>
+	<a href="homePage.php" >Home Page</a>
+	<a href="schedule.php">Schedule</a>
+	<a href="tutorial.php">Tutorial</a>
+	<a href="feedBack.php">FeedBack</a>
+	<a href="Resume.php">Resume</a>
+	<a href="supplires.php">Suppliers</a>
 </div>

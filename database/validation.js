@@ -1,3 +1,4 @@
+  var re = /\S+@\S+\.\S+/;
 //	Mandatory fields validation
 function validateForm() {
   if (document.getElementById('fName').value == "") {
@@ -45,6 +46,7 @@ else if(document.getElementById("textarea").value.trim().length < 1){
   alert("Please provide your Feedback...");
   return false;
 }
+
 // check for invalid data
 else if(document.getElementById("phone").value.length != 10) {
   alert("Phone must be 10 numbers");
@@ -76,6 +78,11 @@ else if(!/^[a-zA-Z]*$/g.test(document.getElementById("Country").value.replace(/\
 else if(!/^[a-zA-Z]*$/g.test(document.getElementById("city").value.replace(/\s/g, ''))){
     alert('Invalid characters City must Contain letters only! ');
     return false;
+}
+
+else if(document.getElementById("email").value.match(/^[^ ]+@[^ ]+\.[a-z]{2,3}$/)==null){
+  alert('Email must be correct!');
+  return false;
 }
 
 }

@@ -1,17 +1,18 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<?xml version="1.0" encoding = "UTF-8" ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+<html xmlns = "http://www.w3.org/1999/xhtml">
   <head>
-    <meta charset="utf-8">
+    <meta content="" />
 
     <title>Resume</title>
     <!-- CSS-->
-    <link rel="stylesheet" href="../CSS/styles.css">
-    <!-- Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/styles.css"/>
     <!-- FavIcon-->
-    <link rel="icon" href="../favicon/favicon1.ico">
+    <link rel="icon" href="../favicon/favicon1.ico"/>
   </head>
   <body>
     <div class="headerInclude">
@@ -26,7 +27,7 @@
     </div>
 
     <div class="content">
-      <h2 class="ZeroH2"><p class="pinkFont ">●</p> My Resume <p class="pinkFont MirrorP">●</p> </h2>
+      <h2 class="ZeroH2"><span class="pinkFont ">●</span> My Resume <span class="pinkFont MirrorP">●</span> </h2>
       <object class="PDF" data="../PDF/Lama's CV.pdf">
       </object>
     </div>
