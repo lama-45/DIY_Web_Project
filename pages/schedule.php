@@ -27,7 +27,7 @@
     </div>
 
     <div class="content">
-      <h2 class="ZeroH2"><span class="pinkFont ">●</span>Contact Us <span class="pinkFont MirrorP">●</span> </h2>
+      <h2 class="ZeroH2"><span class="pinkFont ">●</span> Contact Us <span class="pinkFont MirrorP">●</span> </h2>
 		    <table class="sceduleTable">
 		        <caption>if you need any further information, please feel free to contact us. </caption>
 			         <thead>
